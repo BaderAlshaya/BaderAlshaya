@@ -1,4 +1,4 @@
-# Owener:
+# Owner:
 ### Bader Alshaya
 
 # Information:
