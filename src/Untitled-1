@@ -1,0 +1,19 @@
+
+      <!--Navigation Header-->
+      <ul id="menubar" class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/baderalshaya/src/about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/baderalshaya/src/featured.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/baderalshaya/src/contact.html">Contact</a></li>
+      </ul>
+
+    <!--Website Logo-->
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="navbar-brand" href="/baderalshaya/src/index.html"><img
+            src="/baderalshaya/data/images/logo.png" alt="Website logo." width="50px"></a></li>
+    </ul>
+
+      <!--Resume-->
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/baderalshaya/data/docs/Resume.pdf" target="_blank">RESUME</a>
+        </li>
+      </ul>
