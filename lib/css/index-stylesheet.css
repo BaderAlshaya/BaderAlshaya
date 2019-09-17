@@ -45,9 +45,10 @@ body {
 }
 
 .dropdown button {
+  color: #D4A444;
   background-color: #D4A444;
   font-size: 16px;
-  box-shadow: 1px 2px 2px 1px #0000003d;
+  box-shadow: 4px 4px 8px #ffcc6e;
   border-radius: 2px;
   padding: 5px 20px;
   border: none;
@@ -58,11 +59,13 @@ body {
   color: #ffcc6e;
   font-weight: bold;
   transition: 0.5s ease;
-  box-shadow: 1px 2px 2px 1px #ffcc6e;
+  box-shadow: 4px 4px 8px #ffcc6e;
 }
 
 .dropdown button:focus {
-  outline-color:#F8EDD3;
+  color: #ffe3a7;
+  outline: none;
+  box-shadow: 0px 0px 6px #ffe3a7;
 }
 
 button .content {
@@ -87,5 +90,5 @@ button:hover .content {
 
 .content a:hover {
   font-weight: bold;
-  box-shadow: 1px 3px 3px #F8EDD3;
+  box-shadow: 0px 0px 6px #ffe3a7;
 }
