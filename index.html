@@ -2,30 +2,35 @@
 <html lang="en-US">
 
 <head>
-  <title>Bader Alshaya</title>
-  <meta charset="UTF-8" />
+  <title>Bader Alshaya - Home</title>
+  <meta name="author" content="Bader Alshaya" />
+  <meta name="description" content="Bader Alshaya personal website hompage." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <link rel="icon" href="/baderalshaya/data/images/logo.png">
-  <link rel="stylesheet" type="text/css" href="/baderalshaya/lib/css/index-stylesheet.css" />
+  <meta charset="UTF-8" />
+  <link type="image/png" rel="icon" href="/baderalshaya/database/images/logo-rl.png" />
+  <link type="text/css" rel="stylesheet" href="/baderalshaya/lib/css/index-stylesheet.css" />
+  <!-- <script type="text/javascript" rel="script" src="/baderalshaya/lib/js/index.js"></script> -->
+  <!-- <script type="text/javascript" rel="library" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 </head>
 
 <body>
 
-  <div class="nav-img">
-    <img class="img" src="/baderalshaya/data/images/logo.png" alt="Website logo.">
-    <div class="dropdown">
-      <button>
-        <p>NAVIGATE</p>
-        <div class="content">
-          <a onclick="location.href='/baderalshaya/src/index.html'">ABOUT</a>
-          <a onclick="location.href='/baderalshaya/src/index.html'">PROJECTS</a>
-          <a onclick="location.href='/baderalshaya/src/index.html'">CONTENT</a>
-          <a onclick="location.href='/baderalshaya/src/index.html'">RESUME</a>
-        </div>
-      </button>
-    </div>
-  </div>
+  <header class="homepage-header">
 
+    <a class="logo-container" href="/baderalshaya/src/index.html">
+      <img class="logo-img" src="/baderalshaya/database/images/logo-rl.png" alt="logo" />
+    </a>
+
+
+    <button class="xbtn-container">
+      <p class="xbtn-title">NAVIGATE</p>
+      <a class="xbtn-content" onclick="location.href='/baderalshaya/src/about.html'">ABOUT</a>
+      <a class="xbtn-content" onclick="location.href='/baderalshaya/src/projects.html'">PROJECTS</a>
+      <a class="xbtn-content" onclick="location.href='/baderalshaya/src/contact.html'">CONTACT</a>
+      <a class="xbtn-content" onclick="location.href='/baderalshaya/src/index.html'">RESUME</a>
+    </button>
+    <div id="header-bottom"></div>
+  </header>
 </body>
 
 </html>
