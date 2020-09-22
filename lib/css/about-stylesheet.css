@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #311a11;
+  font-family: Courier New, monospace;
+  font-size: 15px;
+}
+
+/* **************************************************************** */
+/*                             HEADER                               */
+/* **************************************************************** */
+
+.header-container {
+  margin-top: 15px;
+  display: flex;
+  flex: 1;
+}
+
+/* LOGO */
+
+.header-container .logo-container {
+  display: flex;
+  padding: 0px 10px;
+}
+
+.header-container .logo-container .logo {
+  display: flex;
+}
+
+.header-container .logo-container .logo .logo-content {
+  display: flex;
+  width: 70px;
+  height: 55px;
+}
+
+/* EXPANDABLE BUTTON */
+
+.header-container .xbtn-container {
+  display: flex;
+  flex: 1;
+  /* margin: 10px 50px; */
+}
+
+.header-container .xbtn-container .xbtn {
+  display: flex;
+  visibility: visible;
+  flex: 1;
+  justify-content: center;
+  margin: 10px 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffcc6e;
+  border-radius: 6px;
+}
+
+.header-container .xbtn-container .xbtn:hover {
+  font-weight: bold;
+}
+
+.header-container .xbtn-container .xbtn:focus .xbtn {
+  display: none;
+}
+
+.header-container .xbtn-container .xbtn-content {
+  display: none;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-container .xbtn-container:hover .xbtn-content {
+  display: flex;
+}
+
+/* **************************************************************** */
+/*                              MAIN                                */
+/* **************************************************************** */
+
+.main-container {
+  display: flex;
+  flex: 1;
+  height: 1000px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 6px;
+  background-color: #ffcc6e;
+  opacity: 0.009;
+}
+
+/* **************************************************************** */
+/*                             FOOTER                               */
+/* **************************************************************** */
+
+.footer-container {
+  display: flex;
+  flex: 1;
+  height: 100px;
+}
+
+
+
+.logo > img {
+  transition: all 1s ease-in-out 0s;
+}
+
+.logo > img:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
